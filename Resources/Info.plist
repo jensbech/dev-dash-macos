@@ -5,13 +5,13 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleExecutable</key>
-    <string>ISPOrgMenuBarApp</string>
+    <string>DevDashboard</string>
     <key>CFBundleIdentifier</key>
-    <string>dev.local.isp-org-menubar</string>
+    <string>dev.local.dev-dashboard</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>ISPOrgMenuBarApp</string>
+    <string>Dev Dashboard</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

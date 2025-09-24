@@ -1,4 +1,4 @@
-# This is a macOS menu bar app to show and copy IP info
+# macOS menu bar app for system and CLI tool info
 
 ![example.png](example.png)
 
@@ -8,6 +8,19 @@
 # Usage
 - `Organization` is featured on the menu bar itself.
 - Click to open view and click items to copy their values.
+
+# Capabilities
+- Menubar title modes: ISP / Audio Output Device / Currently Playing track.
+- System: public IP, org/ASN, city, country, CPU %, memory %, disk usage.
+- Audio: current output device (auto refresh) and currently playing track (fast refresh timer).
+- Kubernetes: current context + switcher, list of contexts.
+- Azure CLI: current subscription + switcher, list of available subscriptions.
+- GitHub CLI: user login/name/company/location, recent authored PRs.
+- Pulumi CLI: user/orgs info (from `pulumi whoami -v -j`).
+- Docker: engine status, start/stop engine (if applicable), container list with start/stop per container.
+- Click any value to copy (brief copied indicator shown).
+- Manual context / subscription switching triggers immediate refresh.
+- Launch at Login toggle (macOS 13+ `SMAppService`).
 
 # Build from source
 - `just` is required: `brew install just`

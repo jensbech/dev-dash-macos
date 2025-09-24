@@ -1,5 +1,5 @@
-app_name := "ISPOrgMenuBarApp"
-version := "1.1.1"
+app_name := "DevDashboard"
+version := "2.0.0"
 build_dir := ".build/arm64-apple-macosx/release"
 release_dir := "release/" + version
 app_bundle := release_dir + "/" + app_name + ".app"
@@ -8,7 +8,7 @@ _default:
     @just --list
 
 build:
-    swift build -c release
+    swift build -c release --arch arm64
 
 bundle: build
     mkdir -p {{app_bundle}}/Contents/MacOS

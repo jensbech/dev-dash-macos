@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "ISPOrgMenuBarApp",
+    name: "DevDashboard",
     platforms: [
         .macOS(.v13)
     ],
     products: [
-        .executable(name: "ISPOrgMenuBarApp", targets: ["ISPOrgMenuBarApp"])
+        .executable(name: "DevDashboard", targets: ["DevDashboard"])
     ],
     targets: [
         .executableTarget(
-            name: "ISPOrgMenuBarApp"
+            name: "DevDashboard"
         )
     ]
 )
