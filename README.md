@@ -6,6 +6,9 @@
 - macOS with arm
 - `kubectl`, `az`, `gh`, `pulumi`, `docker` 
 
+# Vibes
+All Swift code is 100 % vibe coded.
+
 # Install
 - [Download release](https://github.com/jensbech/isp-name/releases)
 
