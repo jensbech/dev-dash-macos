@@ -7,7 +7,7 @@
 - `kubectl`, `az`, `gh`, `pulumi`, `docker` 
 
 # Vibes
-All Swift code is 100 % vibe coded.
+All Swift code made with vibes.
 
 # Install
 - [Download release](https://github.com/jensbech/isp-name/releases)
@@ -30,4 +30,4 @@ All Swift code is 100 % vibe coded.
 - Build: `just build`
 - Compile: `just bundle`
 - Zip release: `just zip`
-- Install into your Applications: `just install`
+- Install into your Applications: `just install`gg
