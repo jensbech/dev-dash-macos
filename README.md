@@ -3,8 +3,8 @@
 ![example.png](example.png)
 
 # Requirements
-- macOS 13.0+ (Ventura or later)
-- Optional: `kubectl`, `az`, `gh`, `pulumi`, `docker` CLI tools for enhanced features
+- macOS with arm
+- `kubectl`, `az`, `gh`, `pulumi`, `docker` 
 
 # Install
 - [Download release](https://github.com/jensbech/isp-name/releases)
