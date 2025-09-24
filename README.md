@@ -2,12 +2,12 @@
 
 ![example.png](example.png)
 
+# Requirements
+- macOS 13.0+ (Ventura or later)
+- Optional: `kubectl`, `az`, `gh`, `pulumi`, `docker` CLI tools for enhanced features
+
 # Install
 - [Download release](https://github.com/jensbech/isp-name/releases)
-
-# Usage
-- `Organization` is featured on the menu bar itself.
-- Click to open view and click items to copy their values.
 
 # Capabilities
 - Menubar title modes: ISP / Audio Output Device / Currently Playing track.
