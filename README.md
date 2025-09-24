@@ -3,7 +3,7 @@
 ![example.png](example.png)
 
 # Requirements
-- macOS with arm
+- macOS 26+
 - `kubectl`, `az`, `gh`, `pulumi`, `docker` 
 
 # Vibes
@@ -23,7 +23,7 @@ All Swift code made with vibes.
 - Docker: engine status, start/stop engine (if applicable), container list with start/stop per container.
 - Click any value to copy (brief copied indicator shown).
 - Manual context / subscription switching triggers immediate refresh.
-- Launch at Login toggle (macOS 13+ `SMAppService`).
+- Launch at Login toggle
 
 # Build from source
 - `just` is required: `brew install just`
