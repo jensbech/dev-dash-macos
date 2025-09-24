@@ -1925,8 +1925,8 @@ final class SystemMonitor: ObservableObject, @unchecked Sendable {
             let audio = await executeSystemCommand("system_profiler SPAudioDataType | awk '/Output Source: Default/{found=1} found && /^[[:space:]]*[A-Za-z].*:$/{print $1; exit}' | sed 's/://g' || echo 'Built-in Output'")
             
             await MainActor.run {
-                self.cpuUsage = cpu.isEmpty ? "Unknown" : "\(cpu)%"
-                self.memoryUsage = memory.isEmpty ? "Unknown" : "\(memory)%"
+                self.cpuUsage = cpu.isEmpty ? "Unknown" : "\(cpu.trimmingCharacters(in: .whitespacesAndNewlines))%"
+                self.memoryUsage = memory.isEmpty ? "Unknown" : "\(memory.trimmingCharacters(in: .whitespacesAndNewlines))%"
                 self.diskUsage = disk.isEmpty ? "Unknown" : disk.trimmingCharacters(in: .whitespacesAndNewlines)
                 self.audioDevice = audio.isEmpty ? "Built-in Output" : audio.trimmingCharacters(in: .whitespacesAndNewlines)
             }
@@ -1944,8 +1944,8 @@ final class SystemMonitor: ObservableObject, @unchecked Sendable {
             let audio = await executeSystemCommand("system_profiler SPAudioDataType | awk '/Output Source: Default/{found=1} found && /^[[:space:]]*[A-Za-z].*:$/{print $1; exit}' | sed 's/://g' || echo 'Built-in Output'")
             
             await MainActor.run {
-                self.cpuUsage = cpu.isEmpty ? "Unknown" : "\(cpu)%"
-                self.memoryUsage = memory.isEmpty ? "Unknown" : "\(memory)%"
+                self.cpuUsage = cpu.isEmpty ? "Unknown" : "\(cpu.trimmingCharacters(in: .whitespacesAndNewlines))%"
+                self.memoryUsage = memory.isEmpty ? "Unknown" : "\(memory.trimmingCharacters(in: .whitespacesAndNewlines))%"
                 self.diskUsage = disk.isEmpty ? "Unknown" : disk.trimmingCharacters(in: .whitespacesAndNewlines)
                 self.audioDevice = audio.isEmpty ? "Built-in Output" : audio.trimmingCharacters(in: .whitespacesAndNewlines)
             }
