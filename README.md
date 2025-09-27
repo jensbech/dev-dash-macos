@@ -10,7 +10,14 @@
 All Swift code made with vibes.
 
 # Install
-- [Download release](https://github.com/jensbech/isp-name/releases)
+- Build from source and install, I have no Apple Developer account to cert sign the app.
+
+# Build from source
+- `just` is required: `brew install just`
+- Build: `just build`
+- Compile: `just bundle`
+- Zip release: `just zip`
+- Install into your Applications: `just install`gg
 
 # Capabilities
 - Menubar title modes: ISP / Audio Output Device / Currently Playing track.
@@ -24,10 +31,3 @@ All Swift code made with vibes.
 - Click any value to copy (brief copied indicator shown).
 - Manual context / subscription switching triggers immediate refresh.
 - Launch at Login toggle
-
-# Build from source
-- `just` is required: `brew install just`
-- Build: `just build`
-- Compile: `just bundle`
-- Zip release: `just zip`
-- Install into your Applications: `just install`gg
