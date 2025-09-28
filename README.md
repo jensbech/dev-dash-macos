@@ -17,7 +17,7 @@ All Swift code made with vibes.
 - Build: `just build`
 - Compile: `just bundle`
 - Zip release: `just zip`
-- Install into your Applications: `just install`gg
+- Install into your Applications: `just install`
 
 # Capabilities
 - Menubar title modes: ISP / Audio Output Device / Currently Playing track.
