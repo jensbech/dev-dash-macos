@@ -2,6 +2,15 @@
 
 ![example.png](example.png)
 
+# What is this?
+A menu bar app showing various system and configuration data, which for some features you can change state for.
+- Show and change Kubectl context.
+- Show and change Azure subscriptions.
+- Show ISP info.
+- Show Pulumi CLI login state
+- Show and toggle runnig Docker containers.
+- See media info / now playing / audio output source.
+
 # Requirements
 - macOS 26+
 - `kubectl`, `az`, `gh`, `pulumi`, `docker` 
@@ -18,16 +27,3 @@ All Swift code made with vibes.
 - Compile: `just bundle`
 - Zip release: `just zip`
 - Install into your Applications: `just install`
-
-# Capabilities
-- Menubar title modes: ISP / Audio Output Device / Currently Playing track.
-- System: public IP, org/ASN, city, country, CPU %, memory %, disk usage.
-- Audio: current output device (auto refresh) and currently playing track (fast refresh timer).
-- Kubernetes: current context + switcher, list of contexts.
-- Azure CLI: current subscription + switcher, list of available subscriptions.
-- GitHub CLI: user login/name/company/location, recent authored PRs.
-- Pulumi CLI: user/orgs info (from `pulumi whoami -v -j`).
-- Docker: engine status, start/stop engine (if applicable), container list with start/stop per container.
-- Click any value to copy (brief copied indicator shown).
-- Manual context / subscription switching triggers immediate refresh.
-- Launch at Login toggle
