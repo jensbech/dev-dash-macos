@@ -1,7 +1,5 @@
 # macOS menu bar app for system and CLI tool info
 
-![example.png](example.png)
-
 # What is this?
 A menu bar app showing various system and configuration data, which for some features you can change state for.
 - Show and change Kubectl context.
@@ -10,6 +8,8 @@ A menu bar app showing various system and configuration data, which for some fea
 - Show Pulumi CLI login state
 - Show and toggle runnig Docker containers.
 - See media info / now playing / audio output source.
+
+![example.png](example.png)
 
 # Requirements
 - macOS 26+
