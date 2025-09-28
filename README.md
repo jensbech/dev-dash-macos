@@ -1,5 +1,3 @@
-# macOS menu bar app for system and CLI tool info
-
 # What is this?
 A menu bar app showing various system and configuration data, which for some features you can change state for.
 - Show and change Kubectl context.
